@@ -27,4 +27,12 @@ public class SwimCoach implements Coach {
 		return fortuneService.getFortune();
 	}
 
+	public String getEmail() {
+		return email;
+	}
+
+	public String getTeam() {
+		return team;
+	}
+
 }
